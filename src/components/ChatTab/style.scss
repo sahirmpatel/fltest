@@ -1,0 +1,21 @@
+.chattab {
+  display: flex;
+  border: 1px solid black;
+  div {
+    padding: 10px 20px;
+  }
+  div:last-child {
+    margin-left: auto;
+  }
+  img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  .chatinfo {
+    p {
+      margin-bottom: 5px;
+    }
+  }
+}

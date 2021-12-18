@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  height: 100vh;
+  .chatList {
+    overflow-y: auto;
+    width: 100%;
+    border-right: 1px solid black;
+    overflow-x: hidden;
+    cursor: pointer;
+  }
+  .chatDetails {
+    // display: none;
+    position: relative;
+
+    width: 100%;
+    background-color: rgba(176, 246, 255, 0.171);
+  }
+}
+input {
+  height: 50px;
+
+  width: 100%;
+}
+.d-none {
+  display: none;
+}
